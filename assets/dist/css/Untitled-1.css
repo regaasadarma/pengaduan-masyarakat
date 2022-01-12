@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+
+}
+.container{
+background: #0275d8 ;
+
+}
+.navbar{
+    display: flex;
+    position: sticky;
+}
+.nav{
+    position: sticky;
+}
+.menu{
+    flex: 1;
+    text-align: right;
+    position: sticky;
+}
+.menu ul{
+    padding-right: 10px;
+    margin-top: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color:black;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.menu ul li a:hover{
+    color: black;
+
+}
+
+.menu ul li{
+display: inline-block;
+margin-right: 70px;
+margin-top: 10px;
+}
+.logo img{
+    margin-left: 70px ;
+}
+
+.col-1{
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 20px;
+    margin-top: 150px;
+}
+.col-1 h4{
+    margin-top: 10px;
+}
+.header{
+    background-image: url(bahan/Sunset-Pura-Tanah-Lot-Bali-Feature-Image2.jpg);
+    background-size: 100%;
+    height:700px;
+    background-attachment: fixed;
+    
+}
+.btn{
+    border:  solid white;
+    width: 120px;
+    height: 40px;
+    margin: auto;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    transition: 0.5s;
+    
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.btn a:hover{
+    color: white;
+}
+.btn:hover{
+    background-color: #ff523b;
+}
+/* Budaya dan pariwisata */
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    transition: 0.5s;
+
+}
+.small-container{
+    margin-top: 20px;
+}
+.col-3 img{
+    width: 100%;
+}
+.rowbas{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* Budaya dan Pariwisata */
+.bp{
+    margin-top: 70px;
+
+}
+.rowbp h1{
+    text-align: center;
+    
+}
+.rowbp p{
+    text-align: center;
+    font-size: 20px;
+}
+.garis{
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+/* Sejarah */
+.sejarah{
+    margin-bottom: 100px;
+}
+.rowsj h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.rowsj p{
+    text-align: center;
+    font-size: 20px;
+}
+/* covid event */
+.covid{
+    margin-top: 180px;
+    margin-bottom: 100px;
+}
+.rowc{
+    text-align: center;
+}
+.covid{
+    position: relative;
+    background-image: url(Bahan/Caturmuka.jpg);
+    background-size: 100%;
+    height:350px;
+    background-attachment: fixed;
+}
+.rowc h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+    padding-top: 50px;
+}
+/* footer */
+.footer{
+    background: rgb(59, 56, 56);
+    font-size: 10px;
+    color: white;
+    margin-top: 50px;
+    font-size: 13px;
+}
+.footer-row{
+    display: flex;
+}
+.footercol-3 ul{
+    list-style-type: none;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+
+}
+.footercol-3 ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 30 0 40px;
+    padding-top: 10px;
+    text-align: left;
+}
+.footercol-1{
+    flex-basis: 40%;
+    margin-left: 20px;
+    ;
+}
+.footercol-1 h3{
+    margin-top: 10px;
+    font-weight: lighter;
+}
+.footercol-2{
+    flex: 1;
+    margin-left: 30px;
+    
+}
+.footercol-2 img{
+    width: 100px;
+    margin: auto;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+.footercol-3{
+    margin-right: 20px;
+}
+.footer-garis1{
+    width: 120px;
+    height: 3px;
+    background: #ff523b;
+    border-radius: 10px;
+}
+.footer-garis2{
+    width: 200px;
+    height: 3px;
+    background: #ff523b;
+    border-radius: 10px;
+}
+.footer-garis3{
+    width: 120px;
+    height: 3px;
+    background: #ff523b;
+    border-radius: 10px;
+}
+.garis-footer{
+    margin: auto;
+    background:#6d6462;
+    min-width: 330px;
+    height: 1px;
+    margin: 20px;
+    margin-bottom: 0;
+}.gr{
+    text-align: center;
+    padding-bottom: 10px;
+}
+/* news */
+.news{
+    margin: auto;
+    margin-bottom: 300px;
+    margin-top: 60px;
+}
+.small-containern h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.rownews{
+    display: flex;
+    margin: auto;
+}
+.col-2 img{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+.col-2 h1{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.small-containern  .col-2 h1{
+    text-align: left;
+}
+.col-2 p{
+    margin-top: 5px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.col-2{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin: 0 90px;
+ 
+}
+.n3{
+    margin-left: 15px;
+}
+.col-2 .btn{
+    margin-bottom: 10px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #ff523b;
+    color: white;
+    transition: 0.5s;
+}
+.col-2 .btn:hover{
+    background-color: #e67b6d;
+}
+.col-2 .isi:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: white;
+}
+.isi{
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px rgb(0, 0 , 0, .20);
+
+}
+.topbar a{
+    background-color: #ff523b;
+    color: #ff523b;
+    position: sticky;
+}
