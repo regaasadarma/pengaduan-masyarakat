@@ -20,7 +20,7 @@ if($user_valid > 0){
 
 
 	if($data['level']=="admin"){
-		header("location:admin/index.html");	
+		header("location:admin/index.php");	
 	}
 	else if($data['level']=="petugas"){
 		header("location:petugas.php");
@@ -30,7 +30,7 @@ if($user_valid > 0){
 
     }
 
-	$cek_user = mysqli_query($koneksi, "SELECT * FROM tb_masyarakat WHERE username = '$user' and password='$pass' ");
+$cek_user = mysqli_query($koneksi, "SELECT * FROM tb_masyarakat WHERE username = '$user' and password='$pass' ");
 $user_valid = mysqli_num_rows($cek_user);
 
 //uji jika uname terdaftar

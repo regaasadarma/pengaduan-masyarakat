@@ -45,26 +45,26 @@ if (isset($_POST['register'])) {
 
                     <div class="form-group">
                       <label for="nik" class="sr-only">Masukan NIK</label>
-                      <input type="text" name="nik" id="nik" class="form-control" placeholder="Masukan Nik">
+                      <input type="text" name="nik" id="nik" class="form-control" placeholder="Masukan Nik" required>
                     </div>
                     <div>
                       <label for="nama" class="sr-only">Masukan Nama</label>
-                      <input type="text" name="nama" id="nama" class="form-control" placeholder="Masukan Nama">
+                      <input type="text" name="nama" id="nama" class="form-control" placeholder="Masukan Nama" required>
                     </div>
 
                     <div class="form-group mb-4">
                       <label for="username" class="sr-only">Username</label>
-                      <input type="username" name="username" id="username" class="form-control" placeholder="Masukan Username">
+                      <input type="username" name="username" id="username" class="form-control" placeholder="Masukan Username" required>
                     </div>
 
                     <div class="form-group mb-4">
                       <label for="password" class="sr-only">Masukan Password</label>
-                      <input type="password" name="password" id="password" class="form-control" placeholder="Masukan Password">
+                      <input type="password" name="password" id="password" class="form-control" placeholder="Masukan Password" required>
                     </div>
 
                     <div class="form-group mb-4">
                       <label for="telp" class="sr-only">telp</label>
-                      <input type="text" name="telp" id="telp" class="form-control" placeholder="Masukan No Telepon">
+                      <input type="number" name="telp" id="telp" class="form-control" placeholder="Masukan No Telepon" required>
                     </div>
 
                     <input class="btn btn-block login-btn mb-4" name="register" type="submit" value="Register">
